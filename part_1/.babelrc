@@ -1,0 +1,14 @@
+{
+  "ignore": ["node_modules/**/*"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": ["last 2 versions", "not dead", "> 5%"],
+        "debug": true,
+        "useBuiltIns": "entry",
+        "corejs": "3.6.5"
+      }
+    ]
+  ]
+}
